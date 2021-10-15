@@ -11,11 +11,11 @@ body {
 .container {
 	display: none;
 }
-.peach {
+.blue {
 	background-color: #b8dbd3;
 
 }
-.peach-after {
+.blue-after {
 	-webkit-animation:pastel_blue linear 8s infinite;
 	-moz-animation:pastel_blue linear 8s infinite;
 	-o-animation:pastel_blue linear 8s infinite;

@@ -21,7 +21,7 @@ $('document').ready(function(){
 		$('#bulb_green').addClass('bulb-glow-green');
 		$('#bulb_pink').addClass('bulb-glow-pink');
 		$('#bulb_orange').addClass('bulb-glow-orange');
-		$('body').addClass('peach');
+		$('body').addClass('blue');
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#play').fadeIn('slow');
 		});
@@ -36,7 +36,7 @@ $('document').ready(function(){
 		$('#bulb_pink').addClass('bulb-glow-pink-after');
 		$('#bulb_orange').addClass('bulb-glow-orange-after');
 		$('body').css('backgroud-color','#FFF');
-		$('body').addClass('peach-after');
+		$('body').addClass('blue-after');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#bannar_coming').fadeIn('slow');
 		});
@@ -127,11 +127,11 @@ $('document').ready(function(){
 		$('#b3').attr('id','b33')
 		$('#b4').attr('id','b44')
 		$('#b5').attr('id','b55')
-		$('#b11').animate({top:240, left: vw-200},500);
-		$('#b22').animate({top:240, left: vw-100},500);
-		$('#b33').animate({top:240, left: vw-0},500);
-		$('#b44').animate({top:240, left: vw+100},500);
-		$('#b55').animate({top:240, left: vw+200},500);
+		$('#b11').animate({top:200, left: vw-200},500);
+		$('#b22').animate({top:200, left: vw-100},500);
+		$('#b33').animate({top:200, left: vw-0},500);
+		$('#b44').animate({top:200, left: vw+100},500);
+		$('#b55').animate({top:200, left: vw+200},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
