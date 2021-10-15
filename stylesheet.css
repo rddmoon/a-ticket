@@ -969,7 +969,7 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
+	max-width: 50%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1265,7 +1265,7 @@ audio {
 }
 
 .cake-cover {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .message {
 	margin-top: 200px;
